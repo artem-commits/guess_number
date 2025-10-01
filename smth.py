@@ -12,7 +12,7 @@ def calculate_square_root(number: float) -> float:
 
 def calc(your_number: float) -> Optional[str]:
     if your_number <= 0:
-        return
+        return None
     root = calculate_square_root(your_number)
     return (
         "Мы вычислили квадратный корень из введённого вами числа. " f"Это будет: {root}"
