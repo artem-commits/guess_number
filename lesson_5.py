@@ -4,7 +4,6 @@ class Customer:
         # Добавьте сюда атрибут "скидка" со значением по умолчанию 10.
         self.__discount = 10
 
-    # Реализуйте методы get_price() и set_discount().
     def get_price(self, price: float) -> float:
         return float(round(price * (1 - self.__discount / 100), 2))
 
